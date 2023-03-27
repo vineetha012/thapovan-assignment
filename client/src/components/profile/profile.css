@@ -1,0 +1,185 @@
+.middle-container {
+    background-color: rgb(247, 247, 248);
+    color: aliceblue;
+
+}
+
+.main-pro-container {
+    padding: 10px 30px 50px 30px;
+    background-color: rgb(39, 39, 39);
+    height: 80%;
+    margin: 10px 0px 10px 0px;
+    width: 600px;
+    height: 630px;
+    position: relative;
+    border-radius: 5px;
+   
+}
+
+.main-pro-container h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(55, 77, 186);
+
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.image-container img{
+    border-radius: 50%;
+    border-radius: "50%";
+    object-fit: "cover";
+}
+
+.personal {
+    background-color: rgb(1, 123, 216);
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+}
+
+.personal .detail {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(150, 148, 148);
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.personal .detail:hover {
+    background-color: rgb(18, 152, 255);
+
+}
+
+.privacy {
+    background-color: rgb(1, 123, 216);
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.settings {
+    background-color: rgb(1, 123, 216);
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.upload-pop {
+    background: rgb(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+}
+
+.upload {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    background: white;
+    box-shadow: 1px 1px 5px rgb(174, 185, 245);
+    color: rgb(2, 138, 187);
+}
+.upload-text{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    margin: 20px 0px 20px 0px;
+}
+.upload-Btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+.upload-Btn button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.upload-Btn button:hover{
+    background-color: rgb(63, 102, 142);
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     margin-top: 10px;
+}
+.rows input,.rows select{
+    width: 200px;
+    border-radius: 5px;
+   
+}
+.imageupload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.updatePOst{
+    border-radius: 5px;
+    background-color: rgb(26, 118, 193);
+    color: white;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+}
+.updatePOst:hover{
+    width: 90px;
+    background-color: rgb(41, 67, 94);
+
+}
+.loading{
+    text-align: center;
+    color: rgb(252, 255, 255);
+    text-shadow: 1px 1px 1px blue;
+}
+.edit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.editbutton{
+   color: aliceblue;
+    background-color: rgb(45, 64, 100);
+    border-radius: 5px;
+    padding: 0px 25px 0px 25px;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px rgb(229, 229, 234);
+}
+.editbutton:hover{
+    background-color: rgb(8, 140, 196);
+}
+.save-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.save-container button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(72, 105, 141);
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.save-container button:hover{
+    background-color: rgb(2, 69, 141);
+}
